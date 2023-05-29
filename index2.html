@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E3 Javascript NUCBA</title>
+    <script src="script.js"defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <div class="contenedor-card">
+        <div class="titulo">
+            <h1>NOMBRE: <span id="nombre"></span></h1>
+            <img id="imagen">
+        </div>
+        <div class="informacion">
+            <span>PRECIO: <span id="precio"></span></span>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="contenedorBoton">
+    <input type="number" id="input" name="input"
+    min="1" max="6">
+    <button id="botonBusqueda"type="submit" min=1 max=6 onclick="devolverValoresPizza()">Ver nombre y precio</button>
+</div>
+
+</body>
+</html>

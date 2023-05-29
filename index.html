@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E1 Javascript NUCBA</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
+    <h1>Ingrese un número del menú de pizzas</h1>
+    <h2 id="nombre"></h2>
+    <h4 id="precio"></h4>
+    <input type="number" id="input" name="input"
+    min="1" max="6">
+    <button id="botonBusqueda"type="submit" min=1 max=6 onclick="devolverValoresPizza()">Ver nombre y precio</button>
 </body>
 </html>
